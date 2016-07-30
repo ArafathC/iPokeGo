@@ -26,11 +26,13 @@
     CLLocationCoordinate2D radar;
     BOOL firstConnection;
     BOOL moved;
-    BOOL isFav;
+    //BOOL isFav;
     
     BOOL isNormalNotificationActivated;
     BOOL isFavNotificationActivated;
     BOOL isHideVeryCommonActivated;
+    BOOL isVibrationActivated;
+    BOOL isViewOnlyFav;
 }
 
 @property(weak, nonatomic) IBOutlet UIButton *locationButton;
@@ -51,6 +53,7 @@
 @property(strong, nonatomic) NSMutableArray *gyms;
 @property(strong, nonatomic) NSArray *savedFavorite;
 @property(strong, nonatomic) NSArray *savedCommon;
+@property(strong, nonatomic) NSArray *animatedPokestopLured;
 
 @property(strong, nonatomic) NSDictionary *localization;
 @property(strong, nonatomic) NSDictionary *mapLocation;

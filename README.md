@@ -2,9 +2,9 @@
 # Pokemap client for iOS [![Build Status](https://travis-ci.org/istornz/iPokeGo.svg?branch=master)](https://travis-ci.org/istornz/iPokeGo)
 This is a client for the Pokemap server (https://github.com/AHAAAAAAA/PokemonGo-Map)
 
-<img src="http://dimitridessus.fr/img/iPokeGo/iPokeGo4.jpg" width="270" height="480"/>
-<img src="http://dimitridessus.fr/img/iPokeGo/iPokeGo5.jpg" width="270" height="480"/>
-<img src="http://dimitridessus.fr/img/iPokeGo/iPokeGo3.jpg" width="270" height="480"/>
+<img src="http://dimitridessus.fr/img/iPokeGo/screenshots/iPokeGo4.jpg" width="270" height="480"/>
+<img src="http://dimitridessus.fr/img/iPokeGo/screenshots/iPokeGo2.jpg" width="270" height="480"/>
+<img src="http://dimitridessus.fr/img/iPokeGo/screenshots/iPokeGo3.jpg" width="270" height="480"/>
 
 ## Features
 - Show/Hide Pokemons,Pokestops and Gyms
@@ -40,6 +40,8 @@ To find your address look at this : http://bit.ly/2aweVR1 (if you have a local s
 ## TODO
 - [ ] Make the app totaly independent
 - [ ] Regroup pokestops annotations to reduce CPU usage
+- [ ] Real notification (work on the server part ?)
+- [ ] Update pokestop and gym annotations
 - [x] Change scan position
 
 ## Android Version
@@ -47,6 +49,7 @@ There is an [Android port](https://github.com/omkarmoghe/Pokemap) in the works. 
 
 ## LICENSE
 iPokeGo is released under the MIT license. See LICENSE for details.
+Thx to @ryanmclachlan for the beautiful UI Design !
 
 #[Official Website] (https://jz6.github.io/PoGoMap/#)
 Live visualization of all pokemon (with option to show gyms and pokestops) in your area. This is a proof of concept that we can load all nearby pokemon given a location. Currently runs on a Flask server displaying a Google Map with markers on it.
